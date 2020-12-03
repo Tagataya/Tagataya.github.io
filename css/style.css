@@ -1,0 +1,450 @@
+.wrapped{
+    max-width: 1366px;
+    margin: 0 auto;
+    color:#222;
+}
+
+/*
+************************************
+HEADER
+************************************
+*/
+
+header {
+    display: flex;
+    justify-content:space-between;
+}
+
+.header_logo{
+    margin:20px 0 0 50px;
+}
+
+.header_links{
+    display: flex;
+    margin-right: 70px;
+}
+
+.header_links a {
+    color:#222;
+    text-decoration: none;
+    margin:50px 0 50px 50px;
+    font-size: 21px;
+}
+
+.header_links a:hover {
+    color:blue;
+    font-weight: bold;
+}
+
+/*
+************************************
+CONTAINER 部分 ★★★ 1) TOP
+************************************
+*/
+
+.c_top {
+    width: 1366px;
+    height:500px;
+    background-image: url(../images/mainbg.png);
+    color: #fff;
+    text-align: center;
+    /* padding-top: 185px; */
+    /*
+     paddingとborderの幅を要素の幅と高さに含めるとき
+     border-boxと指定する。デフォルトはcontent-boxで、含めない
+    */
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 参考書籍 P156 では100vh*/
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sub_title{
+    font: 35px normal;
+    margin-top: 30px;
+}
+
+/*
+************************************
+CONTAINER 本文 共通設定
+************************************
+*/
+
+h1 {
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    margin: 60px auto 30px;
+}
+
+.c_about h1{
+    color: #ffd61a;
+}
+.c_news h1{
+    color: #ffd61a;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+p {
+    margin-top: 14px;
+    font-size:16px;
+}
+
+/*
+************************************
+CONTAINER 部分 ★★★ 2) ABOUT
+************************************
+*/
+
+.text_about {
+    width: 1366px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.text_group {
+    margin-bottom:40px;
+}
+
+.img_about {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*
+************************************
+CONTAINER 部分 ★★★ 3) COURSE
+************************************
+*/
+
+.text_course {
+    width: 1366px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.img_course {
+    display:flex;
+    flex-wrap: wrap;
+}
+/* .img_c_img{
+    width:682px;
+    height: 400px;
+    background-color: #ffd61a;
+} */
+
+
+.textwrap_course {
+    width:682px;
+    height: 460px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.textitem {
+    /* widows: 430px; */
+    width:440px;
+    margin:0 50px 0 50px;
+    /* margin:0; */
+    /* background-color: pink; */
+}
+
+
+.textwrap_course2 {
+    width:682px;
+    height: 460px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #fafafa;
+}
+.textitem2 {
+    /* widows: 430px; */
+    width:440px;
+    margin:0 0 0 185px;
+    /* margin:0; */
+    /* background-color: pink; */
+}
+
+
+.texttop {
+    font-size: 24px;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+/* 
+************************************
+CONTAINER 部分 ★★★ 4) NEWS
+************************************
+*/
+
+.news_container {
+   width: 1366px;
+   display: flex;
+   justify-content: center;
+}
+
+.news_box {
+    margin:0 15px;
+}
+
+.news_box:hover {
+    opacity: 0.5;
+}
+
+.newscomments {
+    width: 300px;
+    line-height: 2em;
+}
+
+.morenews {
+    margin: 30px auto;
+    width:300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+
+.morenews a {
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.morenews:hover {
+    opacity: 0.5;
+}
+
+/* 
+************************************
+CONTAINER 部分 ★★★ 5) ACCESS
+************************************
+*/
+.c_access h1 {
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.c_access {
+    padding-top:60px;
+    padding-bottom:30px;
+    background-color: #fafafa;
+}
+
+
+table{
+    border-collapse: separate;
+    border-spacing: 60px 30px;
+    margin:60px auto 0px;
+    text-align: left;
+}
+
+tr {
+    padding-bottom: 30px;
+}
+
+/* 
+************************************
+CONTAINER 部分 ★★★ 6) CONTACT
+************************************ 
+*/
+
+.c_contact {
+    text-align: center;
+}
+
+.formbox {
+    margin-top: 70px;
+    margin-bottom: 140px;
+    font-size: 16px;
+    text-align: left;
+}
+
+f
+
+dt {
+    width: 240px;
+    padding-top: 10px;
+}
+
+dd{
+    width: 400px;
+}
+
+.checkbox01 {
+    padding-top: 12px;
+}
+
+.checkbox01-input{
+    display: none;
+}
+.checkbox01-parts{
+    padding-left: 20px;
+    position:relative;
+    margin-right: 20px;
+}
+.checkbox01-parts::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.checkbox01-input:checked + .checkbox01-parts{
+    color: #009a9a;
+}
+.checkbox01-input:checked + .checkbox01-parts::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 7px;
+    height: 14px;
+    transform: rotate(40deg);
+    border-bottom: 3px solid #009a9a;
+    border-right: 3px solid #009a9a;
+}
+
+input{
+    width:100%;
+    line-height: 30px;
+    font-size: 100%;
+}
+
+select {
+    width: 101.5%;
+    height: 40px;
+    background-color: #fff;
+    border-color: #cacaca
+}
+
+textarea{
+    margin-top: 24px;
+    width:100%;
+    border-color: #cacaca;
+    font-size: 100%;
+}
+
+/* .cbox {
+    text-align: left;
+} */
+
+.submit {
+    margin: 30px auto;
+    width:300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+
+.submit a {
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.submit:hover {
+    opacity: 0.5;
+}
+
+/* 
+************************************
+　FOOTER 部分
+************************************
+*/
+
+footer {
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#fff;
+    background-color: #707070;
+
+}
+
+/* 
+************************************
+　TEST 部分
+　https://code-schools.com/css-link/
+************************************ 
+*/
+
+.box{
+    height: 50px;
+    width: 80px;
+    background-color: gray;
+    position: relative;
+    text-align:center;
+    line-height: 3em;
+}
+
+.box a{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.box a:hover {
+    background-color: #bbb;
+}
+
+/* 
+************************************
+　メモランダム
+************************************
+
+20190326 22:30 :hoverではまる。今日はここまで。
+必要な知識も・・・のところ右寄せに
+
+20190329(Friday)
+・ホバー未整理：とりあえずhoverはできたが、aタグはできてない
+・COURSEの２つめ、右寄せにできない
+　　→しかたないので、左のマージンを大きくした。
+・記入欄の高さがとれていない 
+・セレクトボックス：角が丸いまま★未了
+・チェックボックス：改行されてしまう。 ★とりあえずコピペ　
+・inputやselectの文字が小さい
+・送信、送信ボタンになっていない。★未了
+*/
